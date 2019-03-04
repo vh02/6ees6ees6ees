@@ -1,4 +1,4 @@
-class HoneyMakerBee {
+class HoneyMakerBee extends Bee {
   constructor() {
     super();
     this.age = 10;
