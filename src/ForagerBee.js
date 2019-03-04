@@ -1,16 +1,14 @@
-class ForagerBee {
+class ForagerBee extends Bee {
   constructor() {
     super();
     this.age = 10;
-    this.job = 'make honey';
-    this.honeyPot = 0;
+    this.job = 'find pollen';
+    this.canFly = true;
+    this.treasureChest = [];
   }
 
-  makeHoney() {
-    this.honeyPot += 1;
-  }
-  giveHoney() {
-    this.honeyPot -= 1;
+  forage() {
+    this.treasureChest.push('treasure');
   }
 };
 
