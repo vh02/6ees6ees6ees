@@ -7,5 +7,4 @@ class Bee extends Grub {
   }
 
   //eat(){} method inherit from grub
-
 };
